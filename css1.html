@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <title>스타일 시트</title>
+    <!-- 스타일 시트 연습 -->
+    <style>
+    .test1{  /* .클래스명,  클래스 선택자 
+                class="test1"인 태그들에 모두 일괄적으로 적용*/
+        color:red;
+        border : 1px solid black; 
+        width: 600px;
+        height: 80px;
+        text-align: center; 
+        line-height: 80px; 
+        background-color: bisque;/* 배경색 */
+      }
+    .test2{
+        color: blueviolet;
+        border: 4px dotted green;
+        width: 500px;
+        height: 40px;
+        text-align: center;
+        line-height: 40px;
+      }
+    #top1{ /* #id명, id선택자,  id="top"인 태그에 적용 */
+        width: 120px;
+        height: 150px;
+        background-color: aquamarine; /* 배경색 */
+    }
+
+    </style>
+    
+</head>
+<body>
+    <h1 class="test1">순서없는 목록</h1>
+    <div id="top1">
+        <ul>
+            <li>메뉴1</li>
+            <li>메뉴2</li>
+            <li>메뉴3</li>
+        </ul>
+    </div>
+    <h1 class="test2">링크를 포함하는 순서없는 목록</h1>
+    <div class="main1">
+        <ul>
+            <li><a href="br.html" target="_blank">br문서</a></li>
+            <li>
+                <a href="../images/big_Tree01.jpg" target="_blank">
+                    나무 그림
+                </a>
+            </li>
+            <li>
+                <a href="https://www.naver.com" target="_blank">
+                    네이버
+                </a>
+            </li>
+        </ul>
+    </div>
+    <hr />
+    <h2 class="test1">목록</h2>
+    <div class="main1">
+        <ul>
+            <li><a href="#">로그인</a></li>
+            <li><a href="#">회원가입</a></li>
+            <li><a href="#">사이트맵</a></li>
+        </ul>
+    </div>
+</body>
+
+</html>
